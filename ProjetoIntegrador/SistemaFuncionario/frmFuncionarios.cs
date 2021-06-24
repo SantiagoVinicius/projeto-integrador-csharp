@@ -58,6 +58,13 @@ namespace SistemaFuncionario
             try
             {
                 conexao.Open();
+
+                MySqlCommand cmd = new MySqlCommand();
+                cmd.Connection = conexao;
+                cmd.CommandText = $"insert into tb_funcionarios(nome , telefone , trabalha_dias , trabalha_horarios ) values('{nome}' , '{telefone}' , '{diasDeTrabalho}' , '{periodoDeTrabalho}')";
+                cmd.ExecuteNonQuery();
+
+                conexao.Close();
             }
             catch(MySqlException erro)
             {

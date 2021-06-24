@@ -128,3 +128,5 @@ C:\Users\vinicius.ssantos71\source\repos\ProjetoIntegrador\SistemaFuncionario\bi
 C:\Users\vinicius.ssantos71\source\repos\ProjetoIntegrador\SistemaFuncionario\bin\Debug\System.Runtime.CompilerServices.Unsafe.xml
 C:\Users\vinicius.ssantos71\source\repos\ProjetoIntegrador\SistemaFuncionario\obj\Debug\SistemaFuncionario.exe.config
 C:\Users\vinicius.ssantos71\source\repos\ProjetoIntegrador\SistemaFuncionario\obj\Debug\SistemaFuncionario.csproj.CopyComplete
+C:\Users\vinicius.ssantos71\source\repos\ProjetoIntegrador\SistemaFuncionario\obj\Debug\SistemaFuncionario.listagemFuncionarios.resources
+C:\Users\vinicius.ssantos71\source\repos\ProjetoIntegrador\SistemaFuncionario\obj\Debug\SistemaFuncionario.PrincipalFuncionarios.resources
