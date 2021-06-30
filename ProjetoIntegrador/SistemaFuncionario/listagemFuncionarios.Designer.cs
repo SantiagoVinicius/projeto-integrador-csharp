@@ -30,6 +30,11 @@
         {
             this.label1 = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
+            this.gridFuncionarios = new System.Windows.Forms.DataGridView();
+            this.txtNomeBuscar = new System.Windows.Forms.TextBox();
+            this.label2 = new System.Windows.Forms.Label();
+            this.btnNomeBuscar = new System.Windows.Forms.Button();
+            ((System.ComponentModel.ISupportInitialize)(this.gridFuncionarios)).BeginInit();
             this.SuspendLayout();
             // 
             // label1
@@ -51,15 +56,57 @@
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
+            // gridFuncionarios
+            // 
+            this.gridFuncionarios.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            this.gridFuncionarios.Location = new System.Drawing.Point(40, 102);
+            this.gridFuncionarios.Name = "gridFuncionarios";
+            this.gridFuncionarios.Size = new System.Drawing.Size(748, 209);
+            this.gridFuncionarios.TabIndex = 2;
+            this.gridFuncionarios.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.gridFuncionarios_CellContentClick);
+            // 
+            // txtNomeBuscar
+            // 
+            this.txtNomeBuscar.Location = new System.Drawing.Point(40, 76);
+            this.txtNomeBuscar.Name = "txtNomeBuscar";
+            this.txtNomeBuscar.Size = new System.Drawing.Size(619, 20);
+            this.txtNomeBuscar.TabIndex = 3;
+            this.txtNomeBuscar.TextChanged += new System.EventHandler(this.txtNomeBuscar_TextChanged);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(54, 57);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(149, 13);
+            this.label2.TabIndex = 4;
+            this.label2.Text = "INFORME PARTE DO NOME";
+            // 
+            // btnNomeBuscar
+            // 
+            this.btnNomeBuscar.Location = new System.Drawing.Point(665, 73);
+            this.btnNomeBuscar.Name = "btnNomeBuscar";
+            this.btnNomeBuscar.Size = new System.Drawing.Size(75, 23);
+            this.btnNomeBuscar.TabIndex = 5;
+            this.btnNomeBuscar.Text = "Buscar";
+            this.btnNomeBuscar.UseVisualStyleBackColor = true;
+            this.btnNomeBuscar.Click += new System.EventHandler(this.btnNomeBuscar_Click);
+            // 
             // listagemFuncionarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnNomeBuscar);
+            this.Controls.Add(this.label2);
+            this.Controls.Add(this.txtNomeBuscar);
+            this.Controls.Add(this.gridFuncionarios);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
             this.Name = "listagemFuncionarios";
             this.Text = "listagemFuncionarios";
+            this.Load += new System.EventHandler(this.listagemFuncionarios_Load);
+            ((System.ComponentModel.ISupportInitialize)(this.gridFuncionarios)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -69,5 +116,9 @@
 
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Button button1;
+        private System.Windows.Forms.DataGridView gridFuncionarios;
+        private System.Windows.Forms.TextBox txtNomeBuscar;
+        private System.Windows.Forms.Label label2;
+        private System.Windows.Forms.Button btnNomeBuscar;
     }
 }

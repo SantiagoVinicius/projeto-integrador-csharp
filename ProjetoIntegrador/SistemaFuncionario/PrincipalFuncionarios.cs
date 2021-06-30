@@ -28,5 +28,11 @@ namespace SistemaFuncionario
             frmFuncionarios formulario = new frmFuncionarios();
             formulario.ShowDialog();
         }
+
+        private void alterarExcluirToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAlterarFuncionarios formulario = new frmAlterarFuncionarios();
+            formulario.ShowDialog();
+        }
     }
 }
