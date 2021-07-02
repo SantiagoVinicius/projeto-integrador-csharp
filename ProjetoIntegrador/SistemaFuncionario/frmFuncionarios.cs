@@ -31,7 +31,6 @@ namespace SistemaFuncionario
 
         private void btnCadastroFuncionarios_Click(object sender, EventArgs e)
         {
-           
             SalvarPaciente(txtNome.Text , txtTelefone.Text , txtDiasTrabalho.Text, txtPeriodos.Text);
             LimparFormulario();
         }
@@ -65,6 +64,7 @@ namespace SistemaFuncionario
                 cmd.ExecuteNonQuery();
 
                 conexao.Close();
+                MessageBox.Show("Cadastrado Com Sucesso!!!");
             }
             catch(MySqlException erro)
             {
