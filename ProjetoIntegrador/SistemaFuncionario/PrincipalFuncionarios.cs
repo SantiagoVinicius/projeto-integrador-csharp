@@ -7,6 +7,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
+using SistemaCliente;
 
 namespace SistemaFuncionario
 {
@@ -32,6 +33,17 @@ namespace SistemaFuncionario
         private void alterarExcluirToolStripMenuItem_Click(object sender, EventArgs e)
         {
             frmAlterarFuncionarios formulario = new frmAlterarFuncionarios();
+            formulario.ShowDialog();
+        }
+
+        private void PrincipalFuncionarios_Load(object sender, EventArgs e)
+        {
+            
+        }
+
+        private void novoClienteToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmCadastroCliente formulario = new frmCadastroCliente();
             formulario.ShowDialog();
         }
     }

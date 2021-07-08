@@ -33,12 +33,12 @@
             this.funcionáriosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listarTodosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.novoFuncionariosToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            this.alterarExcluirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.clientesToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.listarTodosToolStripMenuItem1 = new System.Windows.Forms.ToolStripMenuItem();
             this.novoClienteToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.agendaToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.contextMenuStrip1 = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.alterarExcluirToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
             this.menuStrip1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -67,16 +67,23 @@
             // listarTodosToolStripMenuItem
             // 
             this.listarTodosToolStripMenuItem.Name = "listarTodosToolStripMenuItem";
-            this.listarTodosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.listarTodosToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.listarTodosToolStripMenuItem.Text = "Listar todos";
             this.listarTodosToolStripMenuItem.Click += new System.EventHandler(this.listarTodosToolStripMenuItem_Click);
             // 
             // novoFuncionariosToolStripMenuItem
             // 
             this.novoFuncionariosToolStripMenuItem.Name = "novoFuncionariosToolStripMenuItem";
-            this.novoFuncionariosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.novoFuncionariosToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
             this.novoFuncionariosToolStripMenuItem.Text = "Novo Funcionarios";
             this.novoFuncionariosToolStripMenuItem.Click += new System.EventHandler(this.novoFuncionariosToolStripMenuItem_Click);
+            // 
+            // alterarExcluirToolStripMenuItem
+            // 
+            this.alterarExcluirToolStripMenuItem.Name = "alterarExcluirToolStripMenuItem";
+            this.alterarExcluirToolStripMenuItem.Size = new System.Drawing.Size(174, 22);
+            this.alterarExcluirToolStripMenuItem.Text = "Alterar | Excluir ";
+            this.alterarExcluirToolStripMenuItem.Click += new System.EventHandler(this.alterarExcluirToolStripMenuItem_Click);
             // 
             // clientesToolStripMenuItem
             // 
@@ -90,14 +97,15 @@
             // listarTodosToolStripMenuItem1
             // 
             this.listarTodosToolStripMenuItem1.Name = "listarTodosToolStripMenuItem1";
-            this.listarTodosToolStripMenuItem1.Size = new System.Drawing.Size(143, 22);
+            this.listarTodosToolStripMenuItem1.Size = new System.Drawing.Size(180, 22);
             this.listarTodosToolStripMenuItem1.Text = "Listar Todos";
             // 
             // novoClienteToolStripMenuItem
             // 
             this.novoClienteToolStripMenuItem.Name = "novoClienteToolStripMenuItem";
-            this.novoClienteToolStripMenuItem.Size = new System.Drawing.Size(143, 22);
+            this.novoClienteToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
             this.novoClienteToolStripMenuItem.Text = "Novo Cliente";
+            this.novoClienteToolStripMenuItem.Click += new System.EventHandler(this.novoClienteToolStripMenuItem_Click);
             // 
             // agendaToolStripMenuItem
             // 
@@ -110,13 +118,6 @@
             this.contextMenuStrip1.Name = "contextMenuStrip1";
             this.contextMenuStrip1.Size = new System.Drawing.Size(61, 4);
             // 
-            // alterarExcluirToolStripMenuItem
-            // 
-            this.alterarExcluirToolStripMenuItem.Name = "alterarExcluirToolStripMenuItem";
-            this.alterarExcluirToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
-            this.alterarExcluirToolStripMenuItem.Text = "Alterar | Excluir ";
-            this.alterarExcluirToolStripMenuItem.Click += new System.EventHandler(this.alterarExcluirToolStripMenuItem_Click);
-            // 
             // PrincipalFuncionarios
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -126,6 +127,7 @@
             this.MainMenuStrip = this.menuStrip1;
             this.Name = "PrincipalFuncionarios";
             this.Text = "PrincipalFuncionarios";
+            this.Load += new System.EventHandler(this.PrincipalFuncionarios_Load);
             this.menuStrip1.ResumeLayout(false);
             this.menuStrip1.PerformLayout();
             this.ResumeLayout(false);

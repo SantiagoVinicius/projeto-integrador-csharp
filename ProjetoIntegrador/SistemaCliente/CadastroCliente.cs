@@ -53,12 +53,6 @@ namespace SistemaCliente
         }
         private void SalvarCliente(string nome, string telefone, string sexo, string faxa, string descricao)
         {
-            StreamWriter arquivo;
-            string caminho = "C:\\sistema1\\clientes.txt";
-            arquivo = File.AppendText(caminho);
-            arquivo.WriteLine(nome + " - " + telefone + " - " + sexo + " - " + faxa + "-" + descricao);
-            arquivo.Close();
-
             string bancoDeDados = "server=localhost;user id=root;passoword=;database=bd_projeto";
             MySqlConnection conexao = new MySqlConnection(bancoDeDados);
             try

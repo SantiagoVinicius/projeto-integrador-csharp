@@ -154,5 +154,11 @@
   <ItemGroup>
     <None Include="Resources\sobreposicao-de-fundo-de-formularios-com-formas_23-2148664173.jpg" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\SistemaCliente\SistemaCliente.csproj">
+      <Project>{1da205d6-a8a5-44fc-92fc-d27cb7a03692}</Project>
+      <Name>SistemaCliente</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

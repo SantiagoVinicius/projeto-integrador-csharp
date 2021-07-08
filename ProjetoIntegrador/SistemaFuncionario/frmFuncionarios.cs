@@ -46,12 +46,7 @@ namespace SistemaFuncionario
 
         private void SalvarPaciente(string nome , string telefone , string diasDeTrabalho , string periodoDeTrabalho)
         {
-            StreamWriter arquivo;
-            string caminho = "C:\\sistema1\\funcionarios.txt";
-            arquivo = File.AppendText(caminho);
-            arquivo.WriteLine(nome + " - " + telefone + " - " + diasDeTrabalho + " - " + periodoDeTrabalho);
-            arquivo.Close();
-
+           
             string bancoDeDados = "server=localhost;user id=root;passoword=;database=bd_projeto";
             MySqlConnection conexao = new MySqlConnection(bancoDeDados);
             try

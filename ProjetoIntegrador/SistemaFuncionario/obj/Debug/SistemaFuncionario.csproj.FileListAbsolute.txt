@@ -263,3 +263,6 @@ C:\Users\vinicius.ssantos71\projeto-integrador-csharp\ProjetoIntegrador\SistemaF
 C:\Users\vinicius.ssantos71\projeto-integrador-csharp\ProjetoIntegrador\SistemaFuncionario\obj\Debug\SistemaFuncionario.exe
 C:\Users\vinicius.ssantos71\projeto-integrador-csharp\ProjetoIntegrador\SistemaFuncionario\obj\Debug\SistemaFuncionario.pdb
 C:\Users\vinicius.ssantos71\projeto-integrador-csharp\ProjetoIntegrador\SistemaFuncionario\obj\Debug\SistemaFuncionario.frmAlterarFuncionarios.resources
+C:\Users\vinicius.ssantos71\projeto-integrador-csharp\ProjetoIntegrador\SistemaFuncionario\bin\Debug\SistemaCliente.exe
+C:\Users\vinicius.ssantos71\projeto-integrador-csharp\ProjetoIntegrador\SistemaFuncionario\bin\Debug\SistemaCliente.pdb
+C:\Users\vinicius.ssantos71\projeto-integrador-csharp\ProjetoIntegrador\SistemaFuncionario\bin\Debug\SistemaCliente.exe.config
