@@ -173,7 +173,7 @@
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "frmAlterarFuncionarios";
-            this.Text = "frmAlterarFuncionarios";
+            this.Text = " ";
             this.Load += new System.EventHandler(this.frmAlterarFuncionarios_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

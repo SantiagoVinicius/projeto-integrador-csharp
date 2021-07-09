@@ -79,6 +79,7 @@
             this.groupBox1.Size = new System.Drawing.Size(86, 59);
             this.groupBox1.TabIndex = 8;
             this.groupBox1.TabStop = false;
+            this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
             // rbnMasculino
             // 
@@ -164,6 +165,7 @@
             this.Controls.Add(this.btnSalvar);
             this.Name = "frmCadastroCliente";
             this.Text = "CadastroCliente";
+            this.Load += new System.EventHandler(this.frmCadastroCliente_Load);
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             this.ResumeLayout(false);

@@ -46,5 +46,17 @@ namespace SistemaFuncionario
             frmCadastroCliente formulario = new frmCadastroCliente();
             formulario.ShowDialog();
         }
+
+        private void alterarExcluírToolStripMenuItem_Click(object sender, EventArgs e)
+        {
+            frmAlterarClientes formulario = new frmAlterarClientes();
+            formulario.ShowDialog();
+        }
+
+        private void listarTodosToolStripMenuItem1_Click(object sender, EventArgs e)
+        {
+            ListagemClientes formulario = new ListagemClientes();
+            formulario.ShowDialog();
+        }
     }
 }

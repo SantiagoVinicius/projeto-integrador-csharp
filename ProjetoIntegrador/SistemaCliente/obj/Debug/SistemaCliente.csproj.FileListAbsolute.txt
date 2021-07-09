@@ -128,3 +128,5 @@ C:\Users\vinicius.ssantos71\projeto-integrador-csharp\ProjetoIntegrador\SistemaC
 C:\Users\vinicius.ssantos71\projeto-integrador-csharp\ProjetoIntegrador\SistemaCliente\obj\Debug\SistemaCliente.csproj.CopyComplete
 C:\Users\vinicius.ssantos71\projeto-integrador-csharp\ProjetoIntegrador\SistemaCliente\obj\Debug\SistemaCliente.exe
 C:\Users\vinicius.ssantos71\projeto-integrador-csharp\ProjetoIntegrador\SistemaCliente\obj\Debug\SistemaCliente.pdb
+C:\Users\vinicius.ssantos71\projeto-integrador-csharp\ProjetoIntegrador\SistemaCliente\obj\Debug\SistemaCliente.frmAlterarClientes.resources
+C:\Users\vinicius.ssantos71\projeto-integrador-csharp\ProjetoIntegrador\SistemaCliente\obj\Debug\SistemaCliente.ListagemClientes.resources

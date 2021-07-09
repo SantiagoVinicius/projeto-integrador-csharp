@@ -95,10 +95,28 @@
     <Compile Include="CadastroCliente.Designer.cs">
       <DependentUpon>CadastroCliente.cs</DependentUpon>
     </Compile>
+    <Compile Include="frmAlterarClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="frmAlterarClientes.Designer.cs">
+      <DependentUpon>frmAlterarClientes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="ListagemClientes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="ListagemClientes.Designer.cs">
+      <DependentUpon>ListagemClientes.cs</DependentUpon>
+    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <EmbeddedResource Include="CadastroCliente.resx">
       <DependentUpon>CadastroCliente.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="frmAlterarClientes.resx">
+      <DependentUpon>frmAlterarClientes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="ListagemClientes.resx">
+      <DependentUpon>ListagemClientes.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>

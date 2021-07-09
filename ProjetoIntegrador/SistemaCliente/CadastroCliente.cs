@@ -72,5 +72,15 @@ namespace SistemaCliente
                 MessageBox.Show("Não foi possível conectar com o banco de dados: " + erro.Message);
             }
         }
+
+        private void groupBox1_Enter(object sender, EventArgs e)
+        {
+
+        }
+
+        private void frmCadastroCliente_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
